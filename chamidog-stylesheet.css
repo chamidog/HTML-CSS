@@ -38,30 +38,41 @@ body{
 }
 
 .main-top{
+	background-image: url("images/chami4.JPG");
+	background-size: cover;
+	height: 200px
+}
+
+.main-top h1{
+	text-align: center;
+	color: white;
+
+}
+
+.main-middle{
 	margin-top: 100px;
 
 }
 
-.main-top h2{
+.main-middle h2{
 	border-bottom: 2px solid rgba(0,150,0,0.5);
 	text-align: center;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
 }
 
-.main-top-content{
+.main-middle-content{
 	width: 33%;
 	float: left;
 	text-align: center;
 	padding: 20px;
 }
 
-.main-top-content h3{
+.main-middle-content h3{
 	text-align: center;
 }
 
-.main-top-content p img{
+.main-middle-content p img{
 	width: 80%;
 	text-align: center;
 }
-
